@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j10mLHiqxO0Tu4A2yQIDd2Xc1xrdZDyDv3DD0U5cNf+Aud6iVixCI4PUBCNfZpT1RiYFc2EKkav47PLrohlUHg==",
+  "dgSpecHash": "9t1tiFGCxM+NNtP9NM10cjI5Snh4BRWbNYKY7gpiQXt8OianCHK5yFPoY9pYiZKSLq5/w1Z9+zb3/a3oBvlJSg==",
   "success": true,
-  "projectFilePath": "D:\\WorkOffice\\C#\\MockEnrichSkill\\EnrichAutoTest\\EnrichAutoTest.csproj",
+  "projectFilePath": "D:\\WorkOffice\\C#\\MockEnrichSkill\\AutoTest\\EnrichAutoTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\M.S.I\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",
     "C:\\Users\\M.S.I\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\M.S.I\\.nuget\\packages\\microsoft.net.test.sdk\\16.7.1\\microsoft.net.test.sdk.16.7.1.nupkg.sha512",
     "C:\\Users\\M.S.I\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\M.S.I\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\M.S.I\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1000\\microsoft.office.interop.excel.15.0.4795.1000.nupkg.sha512",
     "C:\\Users\\M.S.I\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.7.1\\microsoft.testplatform.objectmodel.16.7.1.nupkg.sha512",
     "C:\\Users\\M.S.I\\.nuget\\packages\\microsoft.testplatform.testhost\\16.7.1\\microsoft.testplatform.testhost.16.7.1.nupkg.sha512",
     "C:\\Users\\M.S.I\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
@@ -118,5 +119,16 @@
     "C:\\Users\\M.S.I\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
     "C:\\Users\\M.S.I\\.nuget\\packages\\yamldotnet\\11.2.1\\yamldotnet.11.2.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Office.Interop.Excel 15.0.4795.1000' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Office.Interop.Excel",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
