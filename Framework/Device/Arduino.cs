@@ -18,7 +18,7 @@ namespace Framework.Device
 
         public void Send(ICommand command)
         {
-            throw new NotImplementedException();
+            protocol.Send(command);
         }
 
         public void Transmit()
