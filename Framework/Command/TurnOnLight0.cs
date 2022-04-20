@@ -5,9 +5,9 @@ namespace Framework.Command
 {
     public class TurnOnLight0 : ICommand
     {
-        string generateCmd()
+        public string generateCmd()
         {
-            return "UART:0,0"
+            return "UART:0,0";
         }
     }
 }
