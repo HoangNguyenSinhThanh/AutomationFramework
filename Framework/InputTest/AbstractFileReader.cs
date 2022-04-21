@@ -6,10 +6,21 @@ using System.Threading.Tasks;
 
 namespace ExcelFileFramworkHandle
 {
-    abstract class AbstractFileReader
+    public abstract class AbstractFileReader
     {
-        protected abstract void OpenFile();
-        protected abstract void CloseFile();
-        protected abstract void ParseData();
+        public enum RuleTestStep
+        {
+
+        }
+        public abstract void OpenFile();
+        public abstract void CloseFile();
+        public abstract bool VerifySpec();
+        public abstract List<Testspec> GetData();
+        public void ParseData(List<Testspec> listTestpec)
+        {
+            List<string> testStepList = new List<string>();
+            foreach(var e in listTestpec)
+
+        }
     }
 }
